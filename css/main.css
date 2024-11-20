@@ -1,0 +1,107 @@
+/* Configuración básica */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Fondo */
+.background {
+    background: url('https://via.placeholder.com/1500') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Enlaces superiores */
+.top-links {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.top-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+/* Contenedor principal */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    background: #fff;
+    border-radius: 50px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    max-width: 90%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.search-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.search-buttons button {
+    background: #f8f9fa;
+    color: #000;
+    padding: 8px 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-buttons button:hover {
+    background: #e8eaed;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .search-bar {
+        width: 90%;
+    }
+
+    .logo {
+        width: 200px;
+    }
+}
