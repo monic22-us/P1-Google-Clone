@@ -2,29 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Clone</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <div class="background">
-        <header>
-            <div class="top-links">
-                <a href="#">Gmail</a>
-                <a href="#">Imágenes</a>
-                <div class="profile-icon"></div>
-            </div>
-        </header>
-        <main class="search-container">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google Logo" class="logo">
-            <div class="search-bar">
-                <input type="text" placeholder="Busca en Google o escribe una URL">
-                <div class="search-buttons">
-                    <button>Buscar</button>
-                    <button>Suerte</button>
-                </div>
-            </div>
-        </main>
+<body> <!--contenido-->
+    
+    <header>
+        <nav>
+            <ul class="nav-right-section">
+                <li>
+                    <a href="#">Gmail</a>
+                </li>
+                <li>
+                    <a href="#">Imágenes</a>
+                </li>
+                <li class="menu-icons">
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <!--imagen de perfil-->
+                    <a href="#"><img src="https://lh3.googleusercontent.com/ogw/AF2bZyhgpXf7nUnWMQAhMh4gcl_uVGuqEw9BYX5epKbXT-bljxU=s32-c-mo" alt=""></a>
+                    
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+<!--seccion de busqueda-->
+<section class="main-logo">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+</section>
+<!--seccion de busqueda-->
+<section class="main-input">
+    <div class="main-input-container">
+        <!--icono de la lupa-->
+        <span class="search-icon">
+            </span>
+            <!--es donde el usuario va a escribir lo que desea buscar-->
+            <input type="text">
+            <!--icono de microfono para simular el comportamiento de un enlace -->
+            <a class="micro-icon" href=""></a>
     </div>
+</section>
+<!--botones-->
+<section class="main-buttons">
+    <div>
+        <button>Buscar con Google</button>
+    </div>
+    <div>
+        <button>Me siento con suerte</button>
+    </div>
+</section>
+    </main>
+    <footer>
+        <!--lista de links-->
+        <ul class="footer-left">
+            <li>
+                <a href="#">Sobre de Google Chrome</a>
+            </li>
+            <li>
+                <a href="#">Publicidad</a>
+            </li>
+            <li>
+                <a href="#">Negocios</a>
+            </li>
+            <li>
+                <a href="#">Cómo funciona la Búsqueda</a>
+            </li>
+        </ul>
+        <ul class="footer-right">
+            <li>
+                <a href="#">Privacidad</a>
+            </li>
+            <li>
+                <a href="#">Condiciones</a>
+            </li>
+            <li>
+                <a href="#">Configuración</a>
+            </li>
+    </footer>
 </body>
 </html>
